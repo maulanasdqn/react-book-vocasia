@@ -25,7 +25,6 @@ export const UpdateBookPage = () => {
       return item;
     });
 
-    console.log(newItem);
     updateValue(newItem);
     setCreateData({
       title: "",
